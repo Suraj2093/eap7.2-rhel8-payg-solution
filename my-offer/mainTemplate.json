@@ -12,7 +12,7 @@
         "vmName": {
             "type": "String",
             "metadata": {
-                "description": "Name for the Virtual Machine."
+                "description": "Name for the Virtual Machine"
             }
         },
         "adminUsername": {
@@ -202,7 +202,7 @@
             }
         },
         "_artifactsLocation": {
-            "defaultValue": "https://raw.githubusercontent.com/Suraj2093/eap7.2-rhel77-payg-solution/master/my-offer/",
+            "defaultValue": "https://raw.githubusercontent.com/Suraj2093/eap7.2-rhel8-payg-solution/master/my-offer/",
             "type": "String",
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated"
@@ -240,7 +240,7 @@
         {
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2019-05-01",
-            "name": "pid-7ac579ce-8977-4f93-9e78-d68e05e5e2fc",
+            "name": "pid-326f8ba8-c94c-4794-94da-3b74b6c2ed98",
             "properties": {
                 "mode": "Incremental",
                 "template": {
@@ -406,7 +406,7 @@
                     "imageReference": {
                         "publisher": "redhat",
                         "offer": "rhel",
-                        "sku": "7.7",
+                        "sku": "8.0",
                         "version": "latest"
                     },
                     "osDisk": {
