@@ -1,0 +1,76 @@
+{
+  "location": {
+    "value": "eastus"
+  },
+  "vmName": {
+    "value": "jbosseap-rhel77-payg-vm8"
+  },
+  "adminUsername": {
+    "value": "demouser1"
+  },
+  "authenticationType": {
+    "value": "password"
+  },
+  "adminPasswordOrSSHKey": {
+    "value": "demoPassword1!"
+  },
+  "vmSize": {
+    "value": "Standard_DS2_v2"
+  },
+  "virtualNetworkNewOrExisting": {
+    "value": "existing"
+  },
+  "virtualNetworkName": {
+    "value": "external-rhel-vnet"
+  },
+  "addressPrefixes": {
+    "value": [
+      "10.0.0.0/16"
+    ]
+  },
+  "subnetName": {
+    "value": "external-rhel-subnet"
+  },
+  "subnetPrefix": {
+    "value": "10.0.1.0/24"
+  },
+  "virtualNetworkResourceGroupName": {
+    "value": "PIP-test-rg1"
+  },
+  "publicIpNewOrExisting": {
+    "value": "new"
+  },
+  "publicIpName": {
+    "value": "new-rhel-pip"
+  },
+  "publicIpDns": {
+    "value": "new-rhel-pip"
+  },
+  "publicIpResourceGroupName": {
+    "value": "EAP72-RHEL7-payg-Soln-Test-Rg8"
+  },
+  "publicIPAllocationMethod": {
+    "value": "Static"
+  },
+  "publicIpSku": {
+    "value": "Basic"
+  },
+  "bootDiagnostics": {
+    "value": "Off"
+  },
+  "jbossEAPUserName": {
+    "value": "demouser1"
+  },
+  "jbossEAPPassword": {
+    "value": "demoPassword1!"
+  },
+  "rhsmUserName": {
+    "value": "surajpaispektra"
+  },
+  "rhsmPassword": {
+    "value": "Spektra@1234"
+  },
+  "rhsmPoolEAP": {
+    "value": "8a85f99972762fce017299694421706b"
+  }
+}
