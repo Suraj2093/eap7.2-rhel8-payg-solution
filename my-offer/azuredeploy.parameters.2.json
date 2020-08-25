@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-rhel77-payg-vm8"
+    "value": "jbosseap-rhel8-payg-vm1"
   },
   "adminUsername": {
     "value": "demouser1"
@@ -38,19 +38,19 @@
     "value": "PIP-test-rg1"
   },
   "publicIpNewOrExisting": {
-    "value": "new"
+    "value": "existing"
   },
   "publicIpName": {
-    "value": "new-rhel-pip"
+    "value": "rhel77-pip1"
   },
   "publicIpDns": {
-    "value": "new-rhel-pip"
+    "value": "rhel77-pip1"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL7-payg-Soln-Test-Rg8"
+    "value": "PIP-test-rg1"
   },
   "publicIPAllocationMethod": {
-    "value": "Static"
+    "value": "Dynamic"
   },
   "publicIpSku": {
     "value": "Basic"
@@ -68,9 +68,9 @@
     "value": "surajpaispektra"
   },
   "rhsmPassword": {
-    "value": "Spektra@1234"
+    "value": "Spektra@123"
   },
   "rhsmPoolEAP": {
-    "value": "8a85f99972762fce017299694421706b"
+    "value": "8a85f996710f3b1801716f5db33b3fab"
   }
 }
