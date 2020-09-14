@@ -1,59 +1,59 @@
 {
   "location": {
-    "value": "westus"
+    "value": "centralus"
   },
   "vmName": {
-    "value": "jbosseap-rhel8-payg-vm3"
+    "value": "EAP72-RHEL8-PAYG-vm5"
   },
   "adminUsername": {
     "value": "demouser"
   },
   "authenticationType": {
-    "value": "sshPublicKey"
+    "value": "password"
   },
   "adminPasswordOrSSHKey": {
-    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsvQd8Ie4w+cl4irCajWjEnfoa+XQ+c0z7O/ruFEPbOD2Gt4tU9XwoPWVS1ehAziAg8qzKHEZ0gPvSAwIVFqXkxsI3cofl1U7/aU0ELipbc4u/gqj/gDn3WS9Y2w4iGU3/4ifPZYOL5nN9lGS2ixz3Xp7wX22/L8H2RdAKnQYKdS+eWYy/RCTvc1CAXphvEXEDFYp0m0KE9VxBSXNHsvdCI8DyUjQWvNRgKRQowUSAvwZBBH6YlXqQhyPCEDFfcriwTKZ9e56DzulIHjgm35Oucs7Mdx1L0+0/eoZ1CM5TxwfXec1YVGjz+9jgb8GGe+9H06yvFsjAUbJ70dj9UXIDw=="
+    "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_F2s_v2"
+    "value": "Standard_DS2_v2"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
   },
   "virtualNetworkName": {
-    "value": "rhel8-payg-vnet1"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
-      "10.11.0.0/16"
+      "10.5.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "rhel8-payg-subnet1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.11.1.0/24"
+    "value": "10.5.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP72-RHEL8-payg-Soln-Test-Rg3"
+    "value": "EAP72-RHEL8-payg-Soln-Test-Rg5"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "rhel8-payg-vm3-ip1"
+    "value": "EAP72-RHEL8-PAYG-VM5-ip"
   },
   "publicIpDns": {
-    "value": "rhel8-payg-vm3-ip1"
+    "value": "eap72-rhel8-payg-vj5-ecf7450514"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL8-payg-Soln-Test-Rg3"
+    "value": "EAP72-RHEL8-payg-Soln-Test-Rg5"
   },
   "publicIPAllocationMethod": {
-    "value": "Static"
+    "value": "Dynamic"
   },
   "publicIpSku": {
-    "value": "Standard"
+    "value": "Basic"
   },
   "bootDiagnostics": {
     "value": "On"
@@ -62,7 +62,7 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "diagstrgbdn"
+    "value": "eap72rhe0540890679"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
@@ -74,12 +74,12 @@
     "value": "demoPassword1!"
   },
   "rhsmUserName": {
-    "value": "surajpaispektra"
+    "value": "microsoftuser"
   },
   "rhsmPassword": {
-    "value": "Spektra@123"
+    "value": "Password@123"
   },
   "rhsmPoolEAP": {
-    "value": "8a85f99972762fce017299694421707a"
+    "value": "8a85f99c746e3964017478c9da14688c"
   }
 }
