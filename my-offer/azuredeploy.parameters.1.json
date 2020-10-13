@@ -44,7 +44,7 @@
     "value": "EAP72-RHEL8-payg-Std-VM5-pip"
   },
   "publicIpDns": {
-    "value": "eap72-rhel8-payg-soln-vm5-2bedsf"
+    "value": "eap72-rhel8-payg-soln-vm5-2hedsf"
   },
   "publicIpResourceGroupName": {
     "value": "EAP72-RHEL8-payg-Soln-Test-Rg5"
